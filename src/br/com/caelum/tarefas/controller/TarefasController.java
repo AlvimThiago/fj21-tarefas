@@ -62,7 +62,7 @@ public class TarefasController {
 	public String altera(Tarefa tarefa) {
 		JdbcTarefaDao dao = new JdbcTarefaDao();
 		dao.altera(tarefa);
-		return "redirect:listatarefas";
+		return "redirect:listaTarefas";
 	}
 
 }

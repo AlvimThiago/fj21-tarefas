@@ -20,6 +20,8 @@
 			<th>Descrição</th>
 			<th>Finalizado?</th>
 			<th>Data de Finalização</th>
+			<th>Remover</th>
+			<th>Alterar</th>
 		</tr>
 		<c:forEach items="${tarefas}" var="tarefa">
 			<tr>

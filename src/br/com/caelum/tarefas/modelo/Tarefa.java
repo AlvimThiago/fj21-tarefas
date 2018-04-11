@@ -4,11 +4,13 @@ import java.util.Calendar;
 
 import javax.validation.constraints.Size;
 
+import org.hibernate.validator.constraints.NotBlank;
 import org.springframework.format.annotation.DateTimeFormat;
 
 public class Tarefa {
 	private Long id;
 	@Size(min=5) 
+	@NotBlank
 	private String descricao;
 	private boolean finalizado;
 	@DateTimeFormat(pattern="dd/MM/yyyy")
