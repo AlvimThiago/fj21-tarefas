@@ -7,12 +7,9 @@
 <html>
 <head>
 <!-- CSS jQuery UI -->
- <link href="css/jquery.css" rel="stylesheet">
- <script src="js/jquery.js"></script>
- <script src="js/jquery-ui.js"></script>
-<%--  <link rel="stylesheet" type="text/css" href="<c:url value="/css/jquery.css" />" /> --%>
-<%-- <script type="text/javascript" src="<c:url value="/js/jquery.js" />"></script> --%>
-<%-- <script type="text/javascript" src="<c:url value="js/jquery.js" />"></script> --%>
+ <link href="resources/css/jquery.css" rel="stylesheet">
+ <script src="resources/js/jquery.js"></script>
+ <script src="resources/js/jquery-ui.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>Insert title here</title>
 </head>
@@ -28,7 +25,7 @@
 		Finalizado? <input type="checkbox" name="finalizado" value="true" ${tarefa.finalizado? 'checked' : '' }/><br />
 		
 		Data de finalização: <br />
-		<finalDate:campoData id="dataFinalizacao" />
+		<finalDate:campoData id="dataFinalizacao" ><%-- --%>${tarefa.dataFinalizacao}<%-- --%></finalDate:campoData>
 <%-- 		<input type="text" name="dataFinalizacao" value="<fmt:formatDate value="${tarefa.dataFinalizacao.time}" pattern="dd/MM/yyyy" />"/> --%>
 		<br />
 		

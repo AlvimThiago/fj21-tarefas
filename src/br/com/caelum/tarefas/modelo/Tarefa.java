@@ -46,6 +46,7 @@ public class Tarefa {
 
 	public void setDataFinalizacao(Calendar dataFinalizacao) {
 		this.dataFinalizacao = dataFinalizacao;
+		
 	}
 
 }
