@@ -25,7 +25,7 @@
 		Finalizado? <input type="checkbox" name="finalizado" value="true" ${tarefa.finalizado? 'checked' : '' }/><br />
 		
 		Data de finalização: <br />
-		<finalDate:campoData id="dataFinalizacao" ><%-- --%>${tarefa.dataFinalizacao}<%-- --%></finalDate:campoData>
+		<finalDate:campoData id="dataFinalizacao" data="${tarefa.dataFinalizacao}" ></finalDate:campoData>
 <%-- 		<input type="text" name="dataFinalizacao" value="<fmt:formatDate value="${tarefa.dataFinalizacao.time}" pattern="dd/MM/yyyy" />"/> --%>
 		<br />
 		
