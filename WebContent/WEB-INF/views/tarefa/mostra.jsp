@@ -29,9 +29,11 @@
 <%-- 		<input type="text" name="dataFinalizacao" value="<fmt:formatDate value="${tarefa.dataFinalizacao.time}" pattern="dd/MM/yyyy" />"/> --%>
 		<br />
 		
-		<input type="submit" value="Alterar"/>
 		
+		<input type="submit" value="Alterar"/>
+			
 	</form>
-
+	
+	
 </body>
 </html>

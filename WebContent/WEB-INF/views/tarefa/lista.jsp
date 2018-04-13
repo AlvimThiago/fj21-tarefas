@@ -53,6 +53,8 @@
 			</tr>
 		</c:forEach>
 	</table>
+	<br /><br />
+	<a href="logout">Sair do Sistema</a>
 
 
 </body>
