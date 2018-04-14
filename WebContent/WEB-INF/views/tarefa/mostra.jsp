@@ -7,6 +7,7 @@
 <html>
 <head>
 <!-- CSS jQuery UI -->
+<link type="text/css" href="resources/css/tarefas.css" rel="stylesheet"/>
  <link href="resources/css/jquery.css" rel="stylesheet">
  <script src="resources/js/jquery.js"></script>
  <script src="resources/js/jquery-ui.js"></script>
@@ -20,7 +21,7 @@
 		<input type="hidden" name="id" value="${tarefa.id}" />
 		
 		Descrição:<br />
-		<textarea name="descricao" rows="5" cols="100"><%-- --%>${tarefa.descricao}<%-- --%></textarea>
+		<textarea name="descricao" rows="5" cols="100">${tarefa.descricao}</textarea>
 		<br />
 		Finalizado? <input type="checkbox" name="finalizado" value="true" ${tarefa.finalizado? 'checked' : '' }/><br />
 		

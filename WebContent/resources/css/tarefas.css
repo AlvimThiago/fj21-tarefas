@@ -65,7 +65,9 @@ table td {
 
 table th {
 	padding: 3px 20px;
-	background-color: #aaf;
+/* 	background-color: #aaf; */
+	background-color: #2F4F4F;
+	
 }
 
 table a {
@@ -79,6 +81,7 @@ table a:hover {
 
 table tr:nth-child(2n) {
 	background-color: #eef;
+
 }
 
 select {
